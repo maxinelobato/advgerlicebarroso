@@ -5,13 +5,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
 
 export default function GoogleBusiness() {
   return (
     <>
-      <section className="bg-gray-50">
+      <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
           <div className="mx-auto max-w-screen-xl">
             <div className="mx-auto max-w-3xl text-center">
@@ -34,14 +34,18 @@ export default function GoogleBusiness() {
             </div>
           </div>
 
-          <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
+          <div className="-mx-6 mt-8 lg:col-span-10 lg:mx-0">
             <Swiper
               navigation={true}
-              modules={[Navigation]}
+              autoplay={{
+                delay: 2200,
+                disableOnInteraction: false,
+              }}
+              modules={[Navigation, Autoplay]}
               className="mySwiper"
             >
               <SwiperSlide>
-                <blockquote className="flex h-full flex-col justify-center bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                <blockquote className="flex h-full flex-col justify-center p-6 sm:p-8 lg:p-12">
                   <div>
                     <div className="flex gap-0.5 text-cyan-950">
                       <svg
@@ -108,7 +112,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="flex h-full flex-col justify-center bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                <blockquote className="flex h-full flex-col justify-center p-6 sm:p-8 lg:p-12">
                   <div>
                     <div className="flex gap-0.5 text-cyan-950">
                       <svg
@@ -175,7 +179,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="flex h-full flex-col justify-center bg-white p-6 shadow-sm sm:p-8 lg:p-12">
+                <blockquote className="flex h-full flex-col justify-center p-6 sm:p-8 lg:p-12">
                   <div>
                     <div className="flex gap-0.5 text-cyan-950">
                       <svg
