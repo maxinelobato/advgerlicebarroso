@@ -58,19 +58,17 @@ export default function Footer() {
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="h-5 w-5 shrink-0 text-white"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth="2"
+                          width="80"
+                          height="80"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                          />
+                          <path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path>
                         </svg>
 
-                        <span className="flex-1 text-white">contato@lenoiradvogados.com.br</span>
+                        <span className="flex-1 text-white">
+                          contato@lenoiradvogados.com.br
+                        </span>
                       </div>
                     </li>
 
@@ -82,19 +80,17 @@ export default function Footer() {
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="h-5 w-5 shrink-0 text-white"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth="2"
+                          width="80"
+                          height="80"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                          />
+                          <path d="M231.88,175.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.26,56.26,0,0,1,80.92,24.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Z"></path>
                         </svg>
 
-                        <span className="flex-1 text-white">(31) 3295-3748 | 9 9393-3748</span>
+                        <span className="flex-1 text-white">
+                          (31) 3295-3748 | 9 9393-3748
+                        </span>
                       </a>
                     </li>
 
@@ -102,21 +98,12 @@ export default function Footer() {
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 shrink-0 text-white"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth="2"
+                        width="80"
+                        height="80"
+                        fill="currentColor"
+                        viewBox="0 0 256 256"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                        />
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                        />
+                        <path d="M128,16a88.1,88.1,0,0,0-88,88c0,75.3,80,132.17,83.41,134.55a8,8,0,0,0,9.18,0C136,236.17,216,179.3,216,104A88.1,88.1,0,0,0,128,16Zm0,56a32,32,0,1,1-32,32A32,32,0,0,1,128,72Z"></path>
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-white">
