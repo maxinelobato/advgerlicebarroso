@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Advogada de Família Gerlice Barroso",
+  title: "Advogada de Família - Dra. Gerlice Barroso",
   description:
     "O escritório Lenoir Advogados Associados atende pessoa física e empresas em diversos Estados do Brasil. Nossa equipe está apta a trabalhar desde questões mais simples, até casos complexos que exigem o envolvimento de profissionais de diversas áreas.",
 };
