@@ -5,7 +5,7 @@ import lenoir from "/public/lenoir.svg";
 export default function Header() {
   return (
     <>
-      <section className="relative max-h-[87vh] bg-no-repeat bg-center bg-cover bg-[url(https://img.freepik.com/fotos-gratis/vista-superior-bonito-conceito-de-familia-arranjo_23-2148485826.jpg?w=740&t=st=1699645401~exp=1699646001~hmac=7023570bcc50b3c192ba16d8258dbd757b4d4f532602c7d218cc359dae79a0bf)] sm:bg-[url(https://img.freepik.com/fotos-gratis/silhueta-de-familia-feliz-na-sunset_1303-22466.jpg?w=1060&t=st=1699645478~exp=1699646078~hmac=32459f080dfcba73cd84aa1855f089aca0a4da0a14e02c7bd620926fa1de241f)] sm:bg-cover md:bg-[url(https://img.freepik.com/fotos-gratis/silhueta-de-familia-feliz-na-sunset_1303-22466.jpg?w=1060&t=st=1699645478~exp=1699646078~hmac=32459f080dfcba73cd84aa1855f089aca0a4da0a14e02c7bd620926fa1de241f)] md:bg-cover lg:bg-[url(https://img.freepik.com/fotos-gratis/silhueta-de-familia-feliz-na-sunset_1303-22466.jpg?w=1060&t=st=1699645478~exp=1699646078~hmac=32459f080dfcba73cd84aa1855f089aca0a4da0a14e02c7bd620926fa1de241f)] lg:bg-cover">
+      <section className="relative max-h-[87vh] bg-no-repeat bg-center bg-cover bg-[url(https://img.freepik.com/fotos-gratis/maos-segurando-papel-pessoas-fecham_23-2149191365.jpg?w=1060&t=st=1699925021~exp=1699925621~hmac=4d9786be8663741aa604748ddd1bd44684870e3ac179485d3b515fe443de1c5c)] lg:bg-cover">
         <div className="absolute inset-0 bg-gradient-to-r from-teal-950 to-transparent"></div>
         <div className="relative mx-auto max-w-screen-xl px-4 py-14 lg:h-screen lg:items-center lg:px-8 sm:px-6 sm:py-40 text-center">
           <div className="max-w-screen-2xl text-center">
@@ -18,12 +18,12 @@ export default function Header() {
                 className="block font-extrabold"
                 style={{ textShadow: "0px 0px 8px #000000" }}
               >
-                ajudar na vara familiar?
+                ajudar?
               </strong>
             </h1>
 
             <p
-              className="sm:text-xl/relaxed pt-4 text-white "
+              className="font-bold sm:text-2xl/relaxed pt-4 text-white "
               style={{ textShadow: "0px 0px 8px #000000" }}
             >
               Experiência juridica{" "}
@@ -31,7 +31,7 @@ export default function Header() {
             </p>
 
             <p
-              className="sm:text-xl/relaxed pt-4 text-white "
+              className="font-bold sm:text-2xl/relaxed text-white "
               style={{ textShadow: "0px 0px 8px #000000" }}
             >
               Atendimento em{" "}
@@ -40,9 +40,9 @@ export default function Header() {
 
             <div className="py-8 sm:py-10">
               <ButtonHero />
-              <div className="py-8 sm:py-10">
+              <div className="py-8 sm:py-16">
                 <Image
-                  className="w-48 mx-auto md:w-auto lg:w-72"
+                  className="w-48 mx-auto md:w-auto lg:w-64"
                   src={lenoir}
                   sizes="100vw"
                   alt="Logo Lenoir"
