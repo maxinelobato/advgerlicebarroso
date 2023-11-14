@@ -5,7 +5,7 @@ export default function Faq() {
         <div className="max-w-screen-xl mx-auto px-4 pb-16 md:px-8">
         <div className="mx-auto text-center">
             <div className="space-y-5 max-w-full mx-auto text-center px-4 pt-8">
-              <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-semibold tracking-tight text-cyan-950 sm:text-5xl sm:leading-none">
+              <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-bold tracking-tight text-cyan-950 sm:text-5xl sm:leading-none">
                 Dúvidas Frequentes
               </h1>
             </div>
