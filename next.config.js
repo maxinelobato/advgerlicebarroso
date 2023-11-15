@@ -1,15 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {};
 
-module.exports = nextConfig
+module.exports = nextConfig;
 
 module.exports = {
-    images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: 'img.freepik.com',
-        }
-      ],
-    },
-  }
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "img.freepik.com",
+      },
+    ],
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 60,
+  },
+};
