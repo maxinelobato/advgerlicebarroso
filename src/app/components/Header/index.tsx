@@ -5,9 +5,9 @@ import lenoir from "/public/lenoir.svg";
 export default function Header() {
   return (
     <>
-      <section className="relative max-h-[80vh] bg-no-repeat bg-center bg-cover bg-bg1 lg:max-h-[87vh] lg:bg-cover">
+      <section className="relative max-h-[90vh] bg-no-repeat bg-center bg-cover bg-bg1 lg:max-h-[85vh] lg:bg-cover">
         <div className="absolute inset-0 bg-gradient-to-r from-teal-950 to-transparent"></div>
-        <div className="relative mx-auto max-w-screen-xl px-4 py-10 lg:py-50 lg:h-screen lg:items-center lg:px-8 sm:px-6 sm:py-40 text-center">
+        <div className="relative mx-auto max-w-screen-xl px-4 py-24 lg:py-50 lg:h-screen lg:items-center lg:px-8 sm:px-6 sm:py-40 text-center">
           <div className="max-w-screen-2xl text-center">
             <div className="pt-8 sm:pt-0">
               <h1
@@ -40,14 +40,14 @@ export default function Header() {
 
             <div className="pt-7 sm:pt-32 sm:flex sm:items-center sm:justify-center">
               <div className="flex justify-center sm:justify-start">
-              <Image
-                className="w-48 md:w-auto lg:w-64"
-                src={lenoir}
-                sizes="100vw"
-                alt="Logo Lenoir"
-                loading="eager"
-              />
-            </div>
+                <Image
+                  className="w-48 md:w-auto lg:w-64"
+                  src={lenoir}
+                  sizes="100vw"
+                  alt="Logo Lenoir"
+                  loading="eager"
+                />
+              </div>
             </div>
           </div>
         </div>
