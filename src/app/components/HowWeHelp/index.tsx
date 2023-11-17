@@ -100,7 +100,7 @@ export default function HowWeHelp() {
         <div className="max-w-screen-xl mx-auto px-4 pb-8 md:px-8">
           <div className="mx-auto text-center">
             <div className="space-y-5 max-w-full mx-auto text-center px-4 pt-8">
-              <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-bold tracking-tight text-cyan-950 sm:text-5xl sm:leading-none">
+              <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-bold tracking-tight text-zinc-950 sm:text-5xl sm:leading-none">
                 quais serviços você precisa?
               </h1>
             </div>
@@ -110,7 +110,7 @@ export default function HowWeHelp() {
               {features.map((item, idx) => (
                 <li
                   key={idx}
-                  className="bg-cyan-950 space-y-3 p-4 rounded-lg shadow-inner shadow-cyan-800 hover:transition-all"
+                  className="bg-zinc-950 space-y-3 p-4 rounded-lg shadow-inner shadow-zinc-800 hover:transition-all"
                 >
                   <div className="flex items-center justify-center">
                     <div className="text-white">{item.icon}</div>

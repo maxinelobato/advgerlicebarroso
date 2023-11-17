@@ -5,19 +5,19 @@ export default function Faq() {
         <div className="max-w-screen-xl mx-auto px-4 pb-16 md:px-8">
         <div className="mx-auto text-center">
             <div className="space-y-5 max-w-full mx-auto text-center px-4 pt-8">
-              <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-bold tracking-tight text-cyan-950 sm:text-5xl sm:leading-none">
+              <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-bold tracking-tight text-zinc-950 sm:text-5xl sm:leading-none">
                 Dúvidas Frequentes
               </h1>
             </div>
           </div>
           <div className="space-y-4">
-            <details className="group rounded-2xl bg-cyan-950 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details className="group rounded-2xl bg-zinc-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
               <h2 className="text-lg font-bold text-white">
                   Como funciona o atendimento?
                 </h2>
 
-                <span className="shrink-0 rounded-full bg-white p-1.5 text-cyan-950 sm:p-3">
+                <span className="shrink-0 rounded-full bg-white p-1.5 text-zinc-950 sm:p-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45"
@@ -49,13 +49,13 @@ export default function Faq() {
               </p>
             </details>
 
-            <details className="group rounded-2xl bg-cyan-950 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details className="group rounded-2xl bg-zinc-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
               <h2 className="text-lg font-bold text-white">
                   Quanto vou gastar?
                 </h2>
 
-                <span className="shrink-0 rounded-full bg-white p-1.5 text-cyan-950 sm:p-3">
+                <span className="shrink-0 rounded-full bg-white p-1.5 text-zinc-950 sm:p-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45"
@@ -81,14 +81,14 @@ export default function Faq() {
               </p>
             </details>
             
-            <details className="group rounded-2xl bg-cyan-950 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details className="group rounded-2xl bg-zinc-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
               <h2 className="text-lg font-bold text-white">
                   Preciso de um advogado para resolver meu problema?
                 </h2>
 
 
-                <span className="shrink-0 rounded-full bg-white p-1.5 text-cyan-950 sm:p-3">
+                <span className="shrink-0 rounded-full bg-white p-1.5 text-zinc-950 sm:p-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45"

@@ -4,11 +4,11 @@ import lenoir from "/public/lenoir.svg";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-cyan-950">
+      <footer className="bg-zinc-950">
         <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
             <a
-              className="inline-block rounded-full bg-white p-2 text-cyan-950 shadow transition hover:bg-white/90 sm:p-3 lg:p-4"
+              className="inline-block rounded-full bg-white p-2 text-zinc-950 shadow transition hover:bg-white/90 sm:p-3 lg:p-4"
               href="#"
             >
               <span className="sr-only">Voltar</span>
@@ -50,7 +50,7 @@ export default function Footer() {
               <div className="flex justify-center lg:justify-start">
                 <div className="text-center sm:text-left">
                   <p className="text-lg font-medium text-white">
-                    Nossos contatos
+                    Nossos Contatos
                   </p>
                   <ul className="mt-8 space-y-6 text-sm">
                     <li>
@@ -107,8 +107,7 @@ export default function Footer() {
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-white">
-                        Av. Barão Homem de Melo, 4500 / sl. 1411 – Estoril •
-                        Belo Horizonte-MG
+                        Atendimento em todo Brasil
                       </address>
                     </li>
                   </ul>

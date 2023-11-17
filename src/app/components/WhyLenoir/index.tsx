@@ -67,7 +67,7 @@ export default function WhyLenoir() {
               {stats.map((item, idx) => (
                 <li
                   key={idx}
-                  className="card group justify-start bg-cyan-950 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg"
+                  className="card group justify-start bg-zinc-950 backdrop-blur-sm space-y-3 p-4 rounded-xl shadow-lg"
                 >
                   <h1 className="text-5xl mx-auto text-white font-bold">
                     {item.icon}

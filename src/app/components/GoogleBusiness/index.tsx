@@ -14,11 +14,11 @@ export default function GoogleBusiness() {
       <section className="bg-white">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
           <div className="mx-auto max-w-screen-xl">
-            <div className="mx-auto max-w-3xl text-center">
-              <h1 className="font-sans font-semibold text-4xl tracking-tight text-cyan-950 sm:text-5xl sm:leading-none">
+            <div className="mx-auto max-w-2xl text-center">
+              <h1 className="font-sans font-semibold text-4xl tracking-tight text-zinc-950 sm:text-5xl sm:leading-none">
                 O que os clientes falam sobre a{" "}
                 <span className="font-extrabold">
-                  Lenoir Advogados Associados
+                  Dra. Gerlice Barroso
                 </span>
               </h1>
             </div>
@@ -47,7 +47,7 @@ export default function GoogleBusiness() {
               <SwiperSlide>
                 <blockquote className="flex h-full flex-col justify-center p-6 sm:p-8 lg:p-12">
                   <div>
-                    <div className="flex gap-0.5 text-cyan-950">
+                    <div className="flex gap-0.5 text-zinc-950">
                       <svg
                         className="h-5 w-5"
                         fill="currentColor"
@@ -95,17 +95,17 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-cyan-800 sm:text-3xl">
+                      <p className="text-2xl font-bold text-zinc-800 sm:text-3xl">
                         Cliente 1
                       </p>
 
-                      <p className="mt-4 leading-relaxed font-sans text-lg text-cyan-950">
+                      <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
                         Depoimento Cliente 1
                       </p>
                     </div>
                   </div>
 
-                  <footer className="mt-4 text-sm font-medium text-cyan-600 sm:mt-6">
+                  <footer className="mt-4 text-sm font-medium text-zinc-600 sm:mt-6">
                     &mdash; Client 1
                   </footer>
                 </blockquote>
@@ -114,7 +114,7 @@ export default function GoogleBusiness() {
               <SwiperSlide>
                 <blockquote className="flex h-full flex-col justify-center p-6 sm:p-8 lg:p-12">
                   <div>
-                    <div className="flex gap-0.5 text-cyan-950">
+                    <div className="flex gap-0.5 text-zinc-950">
                       <svg
                         className="h-5 w-5"
                         fill="currentColor"
@@ -162,17 +162,17 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-cyan-800 sm:text-3xl">
+                      <p className="text-2xl font-bold text-zinc-800 sm:text-3xl">
                         Cliente 2
                       </p>
 
-                      <p className="mt-4 leading-relaxed font-sans text-lg text-cyan-950">
+                      <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
                         Depoimento Cliente 2
                       </p>
                     </div>
                   </div>
 
-                  <footer className="mt-4 text-sm font-medium text-cyan-600 sm:mt-6">
+                  <footer className="mt-4 text-sm font-medium text-zinc-600 sm:mt-6">
                     &mdash; Cliente 2
                   </footer>
                 </blockquote>
@@ -181,7 +181,7 @@ export default function GoogleBusiness() {
               <SwiperSlide>
                 <blockquote className="flex h-full flex-col justify-center p-6 sm:p-8 lg:p-12">
                   <div>
-                    <div className="flex gap-0.5 text-cyan-950">
+                    <div className="flex gap-0.5 text-zinc-950">
                       <svg
                         className="h-5 w-5"
                         fill="currentColor"
@@ -229,17 +229,17 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-cyan-800 sm:text-3xl">
+                      <p className="text-2xl font-bold text-zinc-800 sm:text-3xl">
                         Cliente 3
                       </p>
 
-                      <p className="mt-4 leading-relaxed font-sans text-lg text-cyan-950">
+                      <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
                         Depoimento Cliente 3
                       </p>
                     </div>
                   </div>
 
-                  <footer className="mt-4 text-sm font-medium text-cyan-600 sm:mt-6">
+                  <footer className="mt-4 text-sm font-medium text-zinc-600 sm:mt-6">
                     &mdash; Cliente 3
                   </footer>
                 </blockquote>
