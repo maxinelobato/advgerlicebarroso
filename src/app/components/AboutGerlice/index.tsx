@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ButtonHero from "../Buttons/buttonhero";
-import gerlice from "/public/dragerlice.jpg";
+import gerlice from "/public/dragerlice.jpeg";
 
 export default function AboutGerlice() {
   return (
@@ -44,7 +44,7 @@ export default function AboutGerlice() {
         <Image
           alt="Gerlice About"
           src={gerlice}
-          className="h-full w-full object-cover sm:h-[calc(80%_-_2rem)] sm:self-center sm:rounded-ss-[20px] md:h-[calc(80%_-_4rem)] md:rounded-ss-[50px] sm:rounded-es-[50px]"
+          className="h-full w-full object-contain"
         />
       </section>
     </>
