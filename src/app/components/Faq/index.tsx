@@ -3,7 +3,7 @@ export default function Faq() {
     <>
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto px-4 pb-16 md:px-8">
-        <div className="mx-auto text-center">
+          <div className="mx-auto text-center">
             <div className="space-y-5 max-w-full mx-auto text-center px-4 pt-8">
               <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-bold tracking-tight text-zinc-950 sm:text-5xl sm:leading-none">
                 Dúvidas Frequentes
@@ -13,7 +13,7 @@ export default function Faq() {
           <div className="space-y-4">
             <details className="group rounded-2xl bg-zinc-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-              <h2 className="text-lg font-bold text-white">
+                <h2 className="text-lg font-bold text-white">
                   Como funciona o atendimento?
                 </h2>
 
@@ -35,8 +35,8 @@ export default function Faq() {
 
               <p className="mt-4 leading-relaxed text-white">
                 Depois de clicar nos botões de contato da página, você será
-                redirecionado para o WhatsApp comercial do escritório para
-                conversar com um advogado da nossa equipe ou a Dra. Gerlice.
+                redirecionado ao WhatsApp comercial para conversar com a Dra.
+                Gerlice.
               </p>
               <p className="mt-4 leading-relaxed text-white">
                 Esse profissional conversará com você sobre seu problema para
@@ -51,7 +51,7 @@ export default function Faq() {
 
             <details className="group rounded-2xl bg-zinc-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-              <h2 className="text-lg font-bold text-white">
+                <h2 className="text-lg font-bold text-white">
                   Quanto vou gastar?
                 </h2>
 
@@ -77,16 +77,15 @@ export default function Faq() {
                 necessidade.
               </p>
               <p className="mt-4 leading-relaxed text-white">
-                Exponha seu caso para nossa equipe.
+                Exponha seu caso para a Dra. Gerlice.
               </p>
             </details>
-            
+
             <details className="group rounded-2xl bg-zinc-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-              <h2 className="text-lg font-bold text-white">
+                <h2 className="text-lg font-bold text-white">
                   Preciso de um advogado para resolver meu problema?
                 </h2>
-
 
                 <span className="shrink-0 rounded-full bg-white p-1.5 text-zinc-950 sm:p-3">
                   <svg
@@ -109,8 +108,8 @@ export default function Faq() {
                 assessorar você quando o problema é jurídico.
               </p>
               <p className="mt-4 leading-relaxed text-white">
-                Em se tratando de processos da área familiar, é obrigatória a presença
-                de um advogado na sua defesa.
+                Em se tratando de processos da área familiar, é obrigatória a
+                presença de um advogado na sua defesa.
               </p>
             </details>
           </div>

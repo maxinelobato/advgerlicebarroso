@@ -17,9 +17,7 @@ export default function GoogleBusiness() {
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="font-sans font-semibold text-4xl tracking-tight text-zinc-950 sm:text-5xl sm:leading-none">
                 O que os clientes falam sobre a{" "}
-                <span className="font-extrabold">
-                  Dra. Gerlice Barroso
-                </span>
+                <span className="font-extrabold">Dra. Gerlice Barroso</span>
               </h1>
             </div>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 xl:justify-center">
@@ -94,19 +92,17 @@ export default function GoogleBusiness() {
                       </svg>
                     </div>
 
-                    <div className="mt-4">
-                      <p className="text-2xl font-bold text-zinc-800 sm:text-3xl">
-                        Cliente 1
-                      </p>
-
+                    <div className="mt-4 text-center">
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Depoimento Cliente 1
+                        Oi nana! Muito obrigada de verdade! Eu não sei nem como
+                        te agradecer mesmo!! Foi trabalho foi incrível,
+                        impecável! Muito obrigada mesmo!
                       </p>
                     </div>
                   </div>
 
                   <footer className="mt-4 text-sm font-medium text-zinc-600 sm:mt-6">
-                    &mdash; Client 1
+                    &mdash; Julia
                   </footer>
                 </blockquote>
               </SwiperSlide>
@@ -162,18 +158,16 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-zinc-800 sm:text-3xl">
-                        Cliente 2
-                      </p>
-
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Depoimento Cliente 2
+                        Nossa Nana eu nem sei como te agradecer, só Deus pra te
+                        abençoar e te dar em dobro, tudo o que tá fazendo por
+                        mim.
                       </p>
                     </div>
                   </div>
 
                   <footer className="mt-4 text-sm font-medium text-zinc-600 sm:mt-6">
-                    &mdash; Cliente 2
+                    &mdash; Daniela
                   </footer>
                 </blockquote>
               </SwiperSlide>
@@ -229,12 +223,13 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-zinc-800 sm:text-3xl">
-                        Cliente 3
-                      </p>
-
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Depoimento Cliente 3
+                        Nossa excelente! Espero em Deus que um dia eu possa
+                        retribuir pelo menos metade de tudo que você tem feito
+                        por mim e pelo meu filho, mesmo que indiretamente pelo
+                        meu filho. Desde fevereiro Nana de verdade! Que toda a
+                        sua calma, a sua explicação, a sua ajuda! Nossa eu só
+                        tenho a agreder, demais, demais, demais...
                       </p>
                     </div>
                   </div>
