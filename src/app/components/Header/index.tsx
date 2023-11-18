@@ -32,7 +32,7 @@ export default function Header() {
                 style={{ textShadow: "0px 0px 8px #000000" }}
               >
                 Atendimento em{" "}
-                <span className="font-black">Belo Horizonte</span>
+                <span className="font-black">Minas Gerais</span>
               </p>
 
             <div className="pt-6">

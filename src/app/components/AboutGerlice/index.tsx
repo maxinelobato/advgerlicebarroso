@@ -44,7 +44,8 @@ export default function AboutGerlice() {
         <Image
           alt="Gerlice About"
           src={gerlice}
-          className="h-full w-full object-contain"
+          className="h-full w-full object-cover"
+          loading="lazy"
         />
       </section>
     </>
