@@ -7,7 +7,7 @@ export default function ButtonCardHelp() {
         target="_blank"
       >
          <button
-          className="tracking-widest shadow-sm shadow-black font-semibold uppercase btn btn-large border-transparent text-white hover:bg-transparent hover:backdrop-blur-lg hover:border-stone-950 hover:ring-2 hover:ring-stone-950 hover:text-stone-950 bg-[#2C9E1D] rounded-full sm:btn-sm md:btn-md lg:btn-lg duration-150 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all"
+          className="tracking-widest shadow-sm shadow-black font-semibold uppercase btn btn-large border-transparent text-white hover:bg-transparent hover:border-stone-950 hover:ring-2 hover:ring-stone-950 hover:text-stone-950 bg-[#2C9E1D] rounded-full sm:btn-sm md:btn-md lg:btn-lg duration-150 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all"
         >
           fale com a especialista
           <svg
