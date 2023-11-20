@@ -89,7 +89,7 @@ export default function Footer() {
                         </svg>
 
                         <span className="flex-1 text-white">
-                          (31) 3295-3748 | 99927-6013
+                          (31) 3295-3748 | 99393-3748
                         </span>
                       </a>
                     </li>

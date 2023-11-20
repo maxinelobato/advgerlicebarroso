@@ -5,7 +5,7 @@ export default function ButtonFloat() {
         <div className="bg-[#34AF23] text-white flex items-center justify-center p-3 rounded-full z-50 absolute">
           <a
             rel="preload"
-            href="https://api.whatsapp.com/send?phone=553199276013&text=Ol%C3%A1%2C%20Dra.%20Gerlice!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
+            href="https://api.whatsapp.com/send?phone=5531993933748&text=Ol%C3%A1%2C%20Dra.%20Gerlice!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
             style={{ textDecoration: "none" }}
             target="_blank"
             aria-label="Clique no Botão"
