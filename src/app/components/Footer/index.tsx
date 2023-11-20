@@ -74,8 +74,9 @@ export default function Footer() {
 
                     <li>
                       <a
+                        rel="preload"
                         className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                        href="/"
+                        href="https://api.whatsapp.com/send?phone=5531993933748&text=Ol%C3%A1%2C%20Dra.%20Gerlice!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
