@@ -39,10 +39,11 @@ export default function RootLayout({
         ></Script>
       </Suspense>
       <body className={inter.className}>
-      <Suspense>{children}</Suspense>
+        <Suspense>{children}</Suspense>
         <Suspense>
           <noscript>
             <iframe
+              rel="preload"
               src={`https://www.googletagmanager.com/ns.html?id=GTM-59RLMBM2`}
               height="0"
               width="0"

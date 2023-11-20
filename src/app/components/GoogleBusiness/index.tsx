@@ -94,7 +94,7 @@ export default function GoogleBusiness() {
 
                     <div className="mt-4 text-center">
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Oi nana! Muito obrigada de verdade! Eu não sei nem como
+                        Oi Dra. Gerlice! Muito obrigada de verdade! Eu não sei nem como
                         te agradecer mesmo!! Foi trabalho foi incrível,
                         impecável! Muito obrigada mesmo!
                       </p>
@@ -159,7 +159,7 @@ export default function GoogleBusiness() {
 
                     <div className="mt-4">
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Nossa Nana eu nem sei como te agradecer, só Deus pra te
+                        Nossa Dra. Gelice eu nem sei como te agradecer, só Deus pra te
                         abençoar e te dar em dobro, tudo o que tá fazendo por
                         mim.
                       </p>
@@ -227,7 +227,7 @@ export default function GoogleBusiness() {
                         Nossa excelente! Espero em Deus que um dia eu possa
                         retribuir pelo menos metade de tudo que você tem feito
                         por mim e pelo meu filho, mesmo que indiretamente pelo
-                        meu filho. Desde fevereiro Nana de verdade! Que toda a
+                        meu filho. Desde fevereiro Dra. Gerlice de verdade! Que toda a
                         sua calma, a sua explicação, a sua ajuda! Nossa eu só
                         tenho a agreder, demais, demais, demais...
                       </p>
@@ -235,7 +235,7 @@ export default function GoogleBusiness() {
                   </div>
 
                   <footer className="mt-4 text-sm font-medium text-zinc-600 sm:mt-6">
-                    &mdash; Cliente 3
+                    &mdash; Katty Naiara
                   </footer>
                 </blockquote>
               </SwiperSlide>
