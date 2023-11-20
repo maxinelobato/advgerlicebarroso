@@ -2,6 +2,7 @@ export default function ButtonSpecialts() {
   return (
     <>
       <a
+        rel="preload"
         href="https://api.whatsapp.com/send?phone=553199276013&text=Ol%C3%A1%2C%20Dra.%20Gerlice!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
         target="_blank"
       >

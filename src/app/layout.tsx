@@ -43,7 +43,6 @@ export default function RootLayout({
         <Suspense>
           <noscript>
             <iframe
-              rel="preload"
               src={`https://www.googletagmanager.com/ns.html?id=GTM-59RLMBM2`}
               height="0"
               width="0"
