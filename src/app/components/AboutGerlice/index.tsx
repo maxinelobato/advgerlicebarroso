@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ButtonHero from "../Buttons/buttonhero";
-import gerlice from "/public/dragerlice.jpeg";
+import gerlice from "/public/dragerlice.webp";
 
 export default function AboutGerlice() {
   return (
