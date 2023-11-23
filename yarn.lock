@@ -102,11 +102,6 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@magicul/next-google-tag-manager@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@magicul/next-google-tag-manager/-/next-google-tag-manager-2.0.0.tgz#04a77b506a4385f84cf637267984bd6f334f5ce0"
-  integrity sha512-NXp0iGxdcAZL9IkkWwh2GS3dE1qSn4hGxXADnvt1li4gAXyxJ9AEDTrgqMVXIDzkGTD7Q0n37BJoCZdmwIXE+g==
-
 "@next/env@14.0.2":
   version "14.0.2"
   resolved "https://registry.npmjs.org/@next/env/-/env-14.0.2.tgz"
