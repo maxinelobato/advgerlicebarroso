@@ -44,7 +44,7 @@ export default function Header() {
                 <Image
                   className="w-48 md:w-auto lg:w-64"
                   src={lenoir}
-                  sizes="100vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   alt="Logo Lenoir"
                   loading="eager"
                 />

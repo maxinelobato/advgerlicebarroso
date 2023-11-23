@@ -34,7 +34,7 @@ export default function Footer() {
                 <Image
                   className="w-48 md:w-auto lg:w-72"
                   src={lenoir}
-                  sizes="100vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   alt="Logo Lenoir"
                 />
               </div>
