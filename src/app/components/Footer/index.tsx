@@ -113,10 +113,9 @@ export default function Footer() {
                           href="https://maps.app.goo.gl/3eLvjrFsf51J96TD7"
                           style={{ textDecoration: "none" }}
                           target="_blank"
-                          aria-label="Google Business"
+                          aria-label="Endereço Atendimento Presencial"
                         >
-                          Av. Barão Homem de Melo, 4500, Sala 1411
-                          <p>Estoril, Belo Horizonte/MG, 30494-270</p>
+                          Nossa localização
                         </a>
                       </address>
                     </li>
