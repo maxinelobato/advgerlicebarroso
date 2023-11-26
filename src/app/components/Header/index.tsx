@@ -46,7 +46,7 @@ export default function Header() {
                   src={lenoir}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   alt="Logo Lenoir"
-                  loading="eager"
+                  rel="preload"
                 />
               </div>
             </div>

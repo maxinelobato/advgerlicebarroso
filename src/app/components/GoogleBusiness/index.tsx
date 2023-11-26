@@ -22,11 +22,11 @@ export default function GoogleBusiness() {
             </div>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 xl:justify-center">
               <Image
+                rel="preload"
                 src="/google.png"
                 alt="Imagem"
                 width={300}
                 height={300}
-                loading="lazy"
                 className="w-28 h-28 drop-shadow-lg"
               />
             </div>
@@ -94,8 +94,8 @@ export default function GoogleBusiness() {
 
                     <div className="mt-4 text-center">
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Oi Dra. Gerlice! Muito obrigada de verdade! Eu não sei nem como
-                        te agradecer mesmo!! Foi trabalho foi incrível,
+                        Oi Dra. Gerlice! Muito obrigada de verdade! Eu não sei
+                        nem como te agradecer mesmo!! Foi trabalho foi incrível,
                         impecável! Muito obrigada mesmo!
                       </p>
                     </div>
@@ -159,9 +159,9 @@ export default function GoogleBusiness() {
 
                     <div className="mt-4">
                       <p className="mt-4 leading-relaxed font-sans text-lg text-zinc-950">
-                        Nossa Dra. Gelice eu nem sei como te agradecer, só Deus pra te
-                        abençoar e te dar em dobro, tudo o que tá fazendo por
-                        mim.
+                        Nossa Dra. Gelice eu nem sei como te agradecer, só Deus
+                        pra te abençoar e te dar em dobro, tudo o que tá fazendo
+                        por mim.
                       </p>
                     </div>
                   </div>
@@ -227,9 +227,9 @@ export default function GoogleBusiness() {
                         Nossa excelente! Espero em Deus que um dia eu possa
                         retribuir pelo menos metade de tudo que você tem feito
                         por mim e pelo meu filho, mesmo que indiretamente pelo
-                        meu filho. Desde fevereiro Dra. Gerlice de verdade! Que toda a
-                        sua calma, a sua explicação, a sua ajuda! Nossa eu só
-                        tenho a agreder, demais, demais, demais...
+                        meu filho. Desde fevereiro Dra. Gerlice de verdade! Que
+                        toda a sua calma, a sua explicação, a sua ajuda! Nossa
+                        eu só tenho a agreder, demais, demais, demais...
                       </p>
                     </div>
                   </div>

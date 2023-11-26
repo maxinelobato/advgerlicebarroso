@@ -42,13 +42,13 @@ export default function AboutGerlice() {
         </div>
 
         <Image
+          rel="preload"
           alt="Gerlice About"
           width={600}
           height={600}
           src={gerlice}
           className="h-auto w-full object-cover"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          loading="eager"
         />
       </section>
     </>
