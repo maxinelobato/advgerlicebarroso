@@ -12,6 +12,7 @@ module.exports = {
       },
     ],
     formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 60
   },
   swcMinify: false,
 };
